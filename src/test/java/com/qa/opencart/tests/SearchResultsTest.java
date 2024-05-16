@@ -20,7 +20,7 @@ public class SearchResultsTest extends BaseTest{
 	@DataProvider
 	public Object[][] getProductCountData() {
 		return new Object[][] {
-				{"macbook", 1},
+				{"macbook", 3},
 				{"Imac", 1},
 				{"Samsung", 2}
 		};
