@@ -4,7 +4,7 @@
 <suite name="Open Cart Regression Suite" verbose="3"  thread-count="5"  parallel="tests">
 
 
-	<test name="Login Page Test">
+	<test name="Login Page Test_Sanity">
 		
 		<parameter name="browser" value="chrome" />
 		
@@ -15,7 +15,7 @@
 	</test>
 
 
-	<test name="Accounts Page Test">
+	<test name="Accounts Page Test_Sanity">
 		
 		<parameter name="browser" value="firefox" />
 			
@@ -24,19 +24,7 @@
 		</classes>
 	</test>
 	
-	<test name="Search Page Test">
-		<parameter name="browser" value="Edge" />
-		<classes>
-			<class name="com.qa.opencart.tests.SearchResultsTest" />
-		</classes>
-	</test>
-	
-	<test name="ProductPageInfo Test">
-		<parameter name="browser" value="firefox" />
-		<classes>
-			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
-		</classes>
-	</test>
+
 	
 <!--	
 	<test name="Regstration Page Test">
